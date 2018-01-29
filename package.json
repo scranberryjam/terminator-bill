@@ -1,0 +1,19 @@
+{
+  "name": "terminator-bill",
+  "version": "0.1.0",
+  "description": "Sandbox learning for my skillz",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scranberryjam/terminator-bill.git"
+  },
+  "author": "Annie Gale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scranberryjam/terminator-bill/issues"
+  },
+  "homepage": "https://github.com/scranberryjam/terminator-bill#readme"
+}
