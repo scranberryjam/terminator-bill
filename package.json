@@ -4,6 +4,8 @@
   "description": "Sandbox learning for my skillz",
   "main": "server.js",
   "scripts": {
+    "deploy": "surge -d terminator-bill.surge.sh -p public",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/scranberryjam/terminator-bill/issues"
   },
-  "homepage": "https://github.com/scranberryjam/terminator-bill#readme"
+  "homepage": "https://github.com/scranberryjam/terminator-bill#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11",
+    "surge": "^0.19.0"
+  }
 }
